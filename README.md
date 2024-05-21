@@ -1,7 +1,7 @@
 # Proyecto_Final_SO
 
 ## Compilacion
-###### Shell 1
+#### Shell 1
 gcc  sensor.c funcionesSensor.c comunicacion.c -o sensor
 ### Shell 2
 gcc  monitor.c funcionesMonitor.c comunicacion.c -o monitor
