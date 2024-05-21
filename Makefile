@@ -13,7 +13,7 @@ run: run_monitor run_sensor1 run_sensor2
 
 run_monitor: monitor
 	@echo "Ejecutando monitor en segundo plano..."
-	@./monitor -b 10 -t file-temp.txt -h file-ph.txt -p pipe1 & 
+	@./monitor -b 10 -t file-temp.txt -h file-ph.txt -p pipe1  
 
 run_sensor1: sensor
 	@echo "Ejecutando sensor en segundo plano..."
